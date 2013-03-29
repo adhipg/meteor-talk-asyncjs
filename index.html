@@ -86,6 +86,10 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
     </section>
 
     <section>
+      <h2>And we haven't (really) talked about the server side yet.</h2>
+    </section>
+
+    <section>
       <blockquote>Development today feels more like getting different parts of
         your tool-chain play well with each other.</blockquote>
     </section>
@@ -114,12 +118,12 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
       <p class='alt left'>Installing meteor</p>
       <pre>$ curl https://install.meteor.com | /bin/sh</pre>
 
-      <div class='fragment'>
+      <div class=''>
         <p class='alt left'>Creating apps</p>
         <pre>$ meteor create my-awesome-app</pre>
       </div>
 
-      <div class='fragment'>
+      <div class=''>
         <p class='alt left'>Running apps</p>
         <pre>$ meteor</pre>
       </div>
@@ -130,7 +134,7 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
 
       <pre>$ meteor deploy my-awesome-app.meteor.com</pre>
 
-      <div class='fragment'>
+      <div class=''>
         <p class='alt left'>Deploy on your own servers</p>
         <pre>$ meteor bundle</pre>
       </div>
@@ -143,12 +147,12 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
     <section>
       <ol>
         <li>Data on the wire</li>
-        <li class='fragment'>One Language</li>
-        <li class='fragment'>Database Everywhere</li>
-        <li class='fragment'>Latency Compensation</li>
-        <li class='fragment'>Full Stack Reactivity</li>
-        <li class='fragment'>Embrace the Ecosystem</li>
-        <li class='fragment'>Simplicity = Productivity</li>
+        <li class=''>One Language</li>
+        <li class=''>Database Everywhere</li>
+        <li class=''>Latency Compensation</li>
+        <li class=''>Full Stack Reactivity</li>
+        <li class=''>Embrace the Ecosystem</li>
+        <li class=''>Simplicity = Productivity</li>
       </ol>
     </section>
 
@@ -196,9 +200,9 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
 
       <ol>
         <li>Meteor Smart Packages</li>
-        <li class='fragment'>Meteorite and Atmosphere
+        <li class=''>Meteorite and Atmosphere
         (https://atmospheme.meteor.com)</li>
-        <li class='fragment'>NPM - (almost) coming soon</li>
+        <li class=''>NPM - (almost) coming soon</li>
       </ol>
     </section>
 
@@ -207,9 +211,9 @@ document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.se
 
       <ol>
         <li>minimongo</li>
-        <li class='fragment'>DDP</li>
-        <li class='fragment'>Deps</li>
-        <li class='fragment'>Spark</li>
+        <li class=''>DDP</li>
+        <li class=''>Deps</li>
+        <li class=''>Spark</li>
       </ol>
     </section>
 
@@ -270,11 +274,11 @@ Reveal.initialize({
     { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
     { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
     { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-    { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-    { src: 'socket.io/socket.io.js', async: true },
-    { src: 'plugin/notes-server/client.js', async: true },
+    // { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+    // { src: 'socket.io/socket.io.js', async: true },
+    // { src: 'plugin/notes-server/client.js', async: true },
     // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-    { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
   ]
 });
 
